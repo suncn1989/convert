@@ -1,0 +1,13 @@
+E:\2016\decode\convert\convert\convert\bin\Debug\convert.exe.config
+E:\2016\decode\convert\convert\convert\bin\Debug\convert.exe
+E:\2016\decode\convert\convert\convert\bin\Debug\convert.pdb
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.csprojResolveAssemblyReference.cache
+E:\2016\decode\convert\convert\convert\obj\Debug\MainWindow.baml
+E:\2016\decode\convert\convert\convert\obj\Debug\MainWindow.g.cs
+E:\2016\decode\convert\convert\convert\obj\Debug\App.g.cs
+E:\2016\decode\convert\convert\convert\obj\Debug\convert_MarkupCompile.cache
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.g.resources
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.Properties.Resources.resources
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.csproj.GenerateResource.Cache
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.exe
+E:\2016\decode\convert\convert\convert\obj\Debug\convert.pdb

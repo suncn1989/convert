@@ -1,0 +1,20 @@
+mov£º
+
+ffmpeg -y -i ../source/1.mov -vcodec copy -acodec copy -vbsf h264_mp4toannexb ../dest/a.ts
+ffmpeg -y -i ../source/1.mov -vcodec libx264 ../dest/a1.ts
+
+
+ffmpeg -y -threads 2 -i "../source/1.mov" -ab 128k -b 2500k -r 25 -maxrate 8000k  -bufsize 1000k -vcodec mpeg2video  -s 4cif -acodec  mp2  -map 0:0  -map 0:1  "../dest/1.ts"
+
+avi£º
+
+
+ffmpeg -y -i ../source/3.avi -vcodec copy -acodec copy -f mpegts ../dest/3.ts
+
+//ffmpeg -y -i ../source/3.avi -codec copy -bsf:v h264_mp4toannexb ../dest/b.ts
+//ffmpeg -y -i ../source/3.avi -vcodec copy -acodec copy -f h264 ../dest/b1.ts
+ffmpeg -y -threads 2 -i ../source/3.avi -vcodec libx264 ../dest/b.ts
+
+ffmpeg -i test.avi -f h264 -vcodec libx264 -s 1440x1080 -r 25 test.264(avi×ªh264)
+
+ffmpeg -y -threads 2 -i "../source/3.avi" -ab 128k -b 2500k -r 25 -maxrate 8000k  -bufsize 1000k -vcodec mpeg2video  -s 4cif -acodec  mp2  -map 0:0  -map 0:1  "../dest/3.ts"
